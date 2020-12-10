@@ -17,27 +17,29 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="right"
-            android:layout_margin="15dp">
+            android:layout_margin="15dp"
+           >
 
             <ImageView
-                android:layout_width="33dp"
-                android:layout_height="37dp"
-                android:src="@mipmap/p" />
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:src="@drawable/p" />
 
         </LinearLayout>
 
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
-            <ImageView
-                android:layout_width="412dp"
-                android:layout_height="62dp"
-                android:src="@mipmap/google" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/google" />
 
 
-        </LinearLayout>
+    </LinearLayout>
 
 
     <LinearLayout
@@ -48,7 +50,7 @@
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:src="@mipmap/barra" />
+            android:src="@drawable/barra" />
 
 
     </LinearLayout>
