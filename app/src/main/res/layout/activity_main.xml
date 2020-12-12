@@ -8,6 +8,8 @@
     tools:context=".MainActivity"
     android:orientation="vertical">
 
+
+
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
@@ -62,6 +64,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+
                 <include layout="@layout/activity_photo" />
             </LinearLayout>
 
@@ -85,4 +88,21 @@
     </ScrollView>
 
 
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:background="#162323"
+        app:menu="@menu/nav_items">
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+
+
+
+
+
 </LinearLayout>
+
+
+
