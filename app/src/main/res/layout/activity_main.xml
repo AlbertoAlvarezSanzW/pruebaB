@@ -91,7 +91,7 @@
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
-        android:layout_height="56dp"
+        android:layout_height="wrap_content"
         android:background="#162323"
         app:menu="@menu/nav_items">
 
